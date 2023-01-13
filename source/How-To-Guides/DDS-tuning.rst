@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/DDS-tuning.rst
 .. redirect-from::
 
   Guides/DDS-tuning
@@ -168,3 +169,8 @@ The ROS2TEST_QOS_PROFILES.xml file was configured using RTI’s documentation on
 The medium flow controller produced the best results for our case.
 However, the controllers will still need to be tuned for the particular machine/network/environment they are operating in.
 The Connext flow controllers can be used to tune bandwidth and its aggressiveness for sending out data, though once the bandwidth of a particular setup is passed, performance will start to drop.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Troubleshooting/DDS-tuning.rst

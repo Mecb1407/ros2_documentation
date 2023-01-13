@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.rst
 .. redirect-from::
 
     Tutorials/Workspace/Creating-A-Workspace
@@ -375,3 +376,8 @@ Next steps
 ----------
 
 Now that you understand the details behind creating, building and sourcing your own workspace, you can learn how to :doc:`create your own packages <../Creating-Your-First-ROS2-Package>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Workspace/Creating-A-Workspace.rst

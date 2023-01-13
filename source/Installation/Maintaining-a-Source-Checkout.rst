@@ -1,5 +1,6 @@
-.. _MaintainingSource:
+:orphan:
 
+<<<<<<< HEAD
 Mantener los fuentes obtenidos
 ==============================
 
@@ -142,3 +143,6 @@ Si deseas conocer las versiones del conjunto de repositorios en tu workspace, pu
        vcs export src > my_ros2.repos
 
 Este archivo ``my_ros2.repos`` se puede compartir con otros para que puedan reproducir el estado de los repositorios en tu worskpace.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

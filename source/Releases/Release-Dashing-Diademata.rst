@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dashing Diademata (``dashing``)
 ===============================
 
@@ -807,3 +808,8 @@ A few milestones leading up to the release:
     Wed. May 29th
         Freeze rosdistro.
         No PRs for Dashing on the ``rosdistro`` repo will be merged (reopens after the release announcement).
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _InstallationGuide:
 .. _RollingInstall:
 
@@ -85,3 +86,8 @@ Construir desde fuentes también le da la opción de instalar la última versió
 ¿Contribuyendo al núcleo de ROS 2?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Si planeas contribuir directamente a los paquetes principales de ROS 2, puedes instalar el :doc:`último desarrollo de fuentes <Installation/Alternatives/Latest-Development-Setup>` que comparte las instrucciones de instalación con la :ref:`Distribución Rolling <rolling_distribution>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

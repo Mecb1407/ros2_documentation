@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 About ROS 2 middleware implementations
 ======================================
@@ -59,3 +60,8 @@ To learn more about what is required to create a new middleware implementation f
 .. warning::
 
     TODO: Link to more detailed middleware implementation docs and/or tutorial.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

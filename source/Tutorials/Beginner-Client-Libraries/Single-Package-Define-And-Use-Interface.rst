@@ -1,10 +1,11 @@
-.. _SinglePkgInterface:
+:orphan:
 
 .. redirect-from::
 
     Rosidl-Tutorial
     Tutorials/Single-Package-Define-And-Use-Interface
 
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.rst
 Implementing custom interfaces
 ==============================
 
@@ -511,3 +512,6 @@ Related content
 ---------------
 
 There are `several design articles <https://design.ros2.org/#interfaces>`_ on ROS 2 interfaces and the IDL (interface definition language).
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Single-Package-Define-And-Use-Interface.rst

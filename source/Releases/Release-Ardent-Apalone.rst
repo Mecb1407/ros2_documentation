@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
   Release-Ardent-Apalone
 
+<<<<<<< HEAD
 Ardent Apalone (``ardent``)
 ===========================
 
@@ -81,3 +84,6 @@ Known Issues
 * Using Connext it is currently not allowed for two topics with the same base name but different namespaces to have a different type (see `issue <https://github.com/ros2/rmw_connext/issues/234>`__).
 * Listing of node names (e.g. using ``ros2 node list``) does not work across some rmw implementations.
 * On Windows Python launch files might hang when trying to abort using ``Ctrl-C`` (see `issue <https://github.com/ros2/launch/issues/64>`__). In order to continue using the shell which is blocked by the hanging command you might want to end the hanging Python process using the process monitor.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

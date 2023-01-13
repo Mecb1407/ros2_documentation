@@ -1,9 +1,12 @@
+:orphan:
+
 .. redirect-from::
 
     RQt-Port-Plugin-Windows
     Guides/RQt-Port-Plugin-Windows
     Tutorials/RQt-Port-Plugin-Windows
 
+<<<<<<< HEAD:source/How-To-Guides/RQt-Port-Plugin-Windows.rst
 Porting RQt plugins to Windows
 ==============================
 
@@ -76,3 +79,6 @@ The linker program is called ``link.exe``.
 
 However, CMake actually provides many of these options in variables.
 This `StackOverflow page <https://stackoverflow.com/questions/9298278/cmake-print-out-all-accessible-variables-in-a-script>`__ contains a good example of how to see all the CMake variables available in a script.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/RQt-Port-Plugin-Windows.rst

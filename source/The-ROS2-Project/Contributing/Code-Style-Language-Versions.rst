@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/The-ROS2-Project/Contributing/Code-Style-Language-Versions.rst
 .. redirect-from::
 
   Contributing/Code-Style-Language-Versions
@@ -410,3 +411,8 @@ The following rules to format text is intended to increase readability as well a
     Following these instructions will ensure that highlighting works properly and consistently.
 
 * *[.md, .rst only]* A code block should specify a syntax (e.g. ``bash``).
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Contributing/Code-Style-Language-Versions.rst

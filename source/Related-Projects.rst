@@ -1,4 +1,6 @@
+:orphan:
 
+<<<<<<< HEAD
 Related Projects
 ================
 
@@ -36,3 +38,6 @@ Company-driven Projects
 
    Related-Projects/Intel-ROS2-Projects
    Related-Projects/Nvidia-ROS2-Projects
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

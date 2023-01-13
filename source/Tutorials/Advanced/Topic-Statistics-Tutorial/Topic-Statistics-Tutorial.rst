@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Topic-Statistics-Tutorial
     Tutorials/Topics/Topic-Statistics-Tutorial
 
+<<<<<<< HEAD:source/Tutorials/Advanced/Topic-Statistics-Tutorial/Topic-Statistics-Tutorial.rst
 Enabling topic statistics (C++)
 ===============================
 
@@ -333,3 +336,6 @@ Related content
 
 To observe how the ``message_age`` period is calculated please see the
 `ROS 2 Topic Statistics demo <https://github.com/ros2/demos/tree/{REPOS_FILE_BRANCH}/topic_statistics_demo>`__.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Topics/Topic-Statistics-Tutorial.rst

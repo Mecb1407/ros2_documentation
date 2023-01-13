@@ -1,5 +1,6 @@
-.. _Releases:
+:orphan:
 
+<<<<<<< HEAD
 Distributions
 =============
 
@@ -175,3 +176,6 @@ We recommend that most people use the most recent stable distribution instead (s
 
 Packages released into the Rolling distribution will be automatically released into future stable distributions of ROS 2.
 :doc:`Releasing a ROS 2 package <../How-To-Guides/Releasing/Releasing-a-Package>` into the Rolling distribution follows the same procedures as all other ROS 2 distributions.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

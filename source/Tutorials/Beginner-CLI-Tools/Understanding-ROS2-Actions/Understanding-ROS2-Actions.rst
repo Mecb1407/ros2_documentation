@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.rst
 .. redirect-from::
 
     Tutorials/Understanding-ROS2-Actions
@@ -364,3 +365,8 @@ Related content
 ---------------
 
 You can read more about the design decisions behind actions in ROS 2 `here <https://design.ros2.org/articles/actions.html>`__.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Understanding-ROS2-Actions.rst

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Complementos de seguridad de Connext
 ====================================
 
@@ -40,3 +41,8 @@ host RTI). Nota: es posible que debas colocar esta ubicación de directorio en s
 Consulte la `Guía de introducción a los complementos de seguridad de RTI <https://community.rti.com/static/documentation/connext-dds/6.0.1/doc/manuals/connext_dds/dds_security/RTI_SecurityPlugins_GettingStarted.pdf>`__ para obtener más información.
 
 Instalación completa.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Intra-Process-Communication
     Tutorials/Intra-Process-Communication
 
+<<<<<<< HEAD:source/Tutorials/Demos/Intra-Process-Communication.rst
 Setting up efficient intra-process communication
 ================================================
 
@@ -381,3 +384,6 @@ One other important thing to get right is to avoid interruption of the intra pro
 
 
 It's hard to pause both images at the same time so the images may not line up, but the important thing to notice is that the ``image_pipeline_all_in_one`` image view shows the same address for each step. This means that the intra process zero-copy is preserved even when an external view is subscribed as well. You can also see that the interprocess image view has different process IDs for the first two lines of text and the process ID of the standalone image viewer in the third line of text.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Intra-Process-Communication.rst

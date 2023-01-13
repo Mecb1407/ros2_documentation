@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Ament-CMake-Documentation.rst
 .. redirect-from::
 
   Guides/Ament-CMake-Documentation
@@ -564,3 +565,8 @@ In the case of ``rviz_ogre_media_exports`` this amounts to the following strateg
       "register_rviz_ogre_media_exports_hook.cmake")
 
 - The files ``register_rviz_ogre_media_exports.cmake`` and ``register_rviz_ogre_media_exports_hook-extra.cmake`` are registered as ``CONFIG_EXTRA`` with ``ament_package()``.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Ament-CMake-Documentation.rst

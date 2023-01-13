@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _galactic-release:
 
 Galactic Geochelone (``galactic``)
@@ -967,3 +968,8 @@ Timeline before the release
 
 .. [1] The ``ros_core`` variant is described in `REP 2001 (ros-core) <https://www.ros.org/reps/rep-2001.html#ros-core>`_.
 .. [2] The ``desktop`` variant is described in `REP 2001 (desktop-variants) <https://www.ros.org/reps/rep-2001.html#desktop-variants>`_.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

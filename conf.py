@@ -18,6 +18,7 @@
 #
 
 import itertools
+<<<<<<< HEAD
 import os
 import sys
 import time
@@ -26,6 +27,15 @@ from docutils.parsers.rst import Directive
 
 sys.path.append(os.path.abspath('./sphinx-multiversion'))
 
+=======
+import json
+from pathlib import Path
+import shutil
+from docutils.parsers.rst import Directive
+
+from fnmatch import fnmatch
+from string import Template
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -73,6 +83,7 @@ pygments_style = 'sphinx'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+<<<<<<< HEAD
 extensions = [
     'sphinx.ext.graphviz',
     'sphinx.ext.ifconfig',
@@ -83,10 +94,14 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_sitemap',
 ]
+=======
+extensions = ['sphinx.ext.intersphinx']
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 
 # Intersphinx mapping
 
 intersphinx_mapping = {
+<<<<<<< HEAD
     'catkin_pkg':    ('https://ros-spanish-users-group.github.io/ros2_documentation/independent/api/catkin_pkg/html', None),
     'jenkins_tools': ('https://ros-spanish-users-group.github.io/ros2_documentation/independent/api/jenkins_tools/html', None),
     'rosdep':        ('https://ros-spanish-users-group.github.io/ros2_documentation/independent/api/rosdep/html', None),
@@ -94,6 +109,15 @@ intersphinx_mapping = {
     'rosinstall':    ('https://ros-spanish-users-group.github.io/ros2_documentation/independent/api/rosinstall/html', None),
     'rospkg':        ('https://ros-spanish-users-group.github.io/ros2_documentation/independent/api/rospkg/html', None),
     'vcstools':      ('https://ros-spanish-users-group.github.io/ros2_documentation/independent/api/vcstools/html', None)
+=======
+    'catkin_pkg':    ('http://docs.ros.org/en/independent/api/catkin_pkg/html', None),
+    'jenkins_tools': ('http://docs.ros.org/en/independent/api/jenkins_tools/html', None),
+    'rosdep':        ('http://docs.ros.org/en/independent/api/rosdep/html', None),
+    'rosdistro':     ('http://docs.ros.org/en/independent/api/rosdistro/html', None),
+    'rosinstall':    ('http://docs.ros.org/en/independent/api/rosinstall/html', None),
+    'rospkg':        ('http://docs.ros.org/en/independent/api/rospkg/html', None),
+    'vcstools':      ('http://docs.ros.org/en/independent/api/vcstools/html', None)
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 }
 
 # -- Options for HTML output ----------------------------------------------
@@ -163,7 +187,222 @@ html_sourcelink_suffix = ''
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'ros2_docsdoc'
 
+<<<<<<< HEAD
 html_baseurl = 'https://ros-spanish-users-group.github.io/ros2_documentation'
+=======
+# Ideally we would be able to do redirects of all kinds from https://index.ros.org to https://docs.ros.org .
+# Unfortunately, since index.ros.org is served from GitHub pages, we can only do http-equiv redirects,
+# and those redirects only work for HTML files.  For the non-HTML files (of which there are only a handful),
+# we copy them into place on index.ros.org and continue to serve them there (as well as from
+# docs.ros.org).  We'll eventually remove them.
+custom_copy_files = {
+    'Marketing/ros2-brochure-a4-print.pdf': '_downloads/e3c5f4c252ce7cba47b7a190741fded0/ros2-brochure-a4-print.pdf',
+    'Marketing/ros2-brochure-a4-web.pdf': '_downloads/ca487a5e252ef6910bcb40402640bde6/ros2-brochure-a4-web.pdf',
+    'Marketing/ros2-brochure-ltr-print.pdf': '_downloads/b837b51f4eec5fd5da351747777193fa/ros2-brochure-ltr-print.pdf',
+    'Marketing/ros2-brochure-ltr-web.pdf': '_downloads/8e25980591e39eda300136ddebc9e97b/ros2-brochure-ltr-web.pdf',
+}
+
+redirects = {
+    # top-level
+    'index': 'https://docs.ros.org/en/rolling/index.html',
+    'Concepts': 'https://docs.ros.org/en/rolling/Concepts.html',
+    'Contact': 'https://docs.ros.org/en/rolling/Contact.html',
+    'Contributing': 'https://docs.ros.org/en/rolling/Contributing.html',
+    'Feature-Ideas': 'https://docs.ros.org/en/rolling/Feature-Ideas.html',
+    'Features': 'https://docs.ros.org/en/rolling/Features.html',
+    'Glossary': 'https://docs.ros.org/en/rolling/Glossary.html',
+    'Governance': 'https://docs.ros.org/en/rolling/Governance.html',
+    'Installation': 'https://docs.ros.org/en/rolling/Installation.html',
+    'Marketing': 'https://docs.ros.org/en/rolling/Marketing.html',
+    'Related-Projects': 'https://docs.ros.org/en/rolling/Related-Projects.html',
+    'Releases': 'https://docs.ros.org/en/rolling/Releases.html',
+    'Roadmap': 'https://docs.ros.org/en/rolling/Roadmap.html',
+    'ROSCon-Content': 'https://docs.ros.org/en/rolling/ROSCon-Content.html',
+    'Troubleshooting': 'https://docs.ros.org/en/rolling/Guides/Installation-Troubleshooting.html',
+    'Tutorials': 'https://docs.ros.org/en/rolling/Tutorials.html',
+
+    # Concepts
+    'Concepts/About-Build-System': 'https://docs.ros.org/en/rolling/Concepts/About-Build-System.html',
+    'Concepts/About-Client-Interfaces': 'https://docs.ros.org/en/rolling/Concepts/About-Client-Interfaces.html',
+    'Concepts/About-Different-Middleware-Vendors': 'https://docs.ros.org/en/rolling/Concepts/About-Different-Middleware-Vendors.html',
+    'Concepts/About-Internal-Interfaces': 'https://docs.ros.org/en/rolling/Concepts/About-Internal-Interfaces.html',
+    'Concepts/About-Logging': 'https://docs.ros.org/en/rolling/Concepts/About-Logging.html',
+    'Concepts/About-Middleware-Implementations': 'https://docs.ros.org/en/rolling/Concepts/About-Middleware-Implementations.html',
+    'Concepts/About-Quality-of-Service-Settings': 'https://docs.ros.org/en/rolling/Concepts/About-Quality-of-Service-Settings.html',
+    'Concepts/About-ROS-2-Client-Libraries': 'https://docs.ros.org/en/rolling/Concepts/About-ROS-2-Client-Libraries.html',
+    'Concepts/About-ROS-2-Parameters': 'https://docs.ros.org/en/rolling/Concepts/About-ROS-2-Parameters.html',
+    'Concepts/About-ROS-Interfaces': 'https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html',
+    'Concepts/About-Topic-Statistics': 'https://docs.ros.org/en/rolling/Concepts/About-Topic-Statistics.html',
+
+    # Contributing
+    'Contributing/Build-Cop-and-Build-Farmer-Guide': 'https://docs.ros.org/en/eloquent/Contributing/Build-Cop-and-Build-Farmer-Guide.html',
+    'Contributing/CI-Server-Setup': 'https://docs.ros.org/en/eloquent/Contributing/CI-Server-Setup.html',
+    'Contributing/Code-Style-Language-Versions': 'https://docs.ros.org/en/rolling/Contributing/Code-Style-Language-Versions.html',
+    'Contributing/Design-Guide': 'https://docs.ros.org/en/eloquent/Contributing/Design-Guide.html',
+    'Contributing/Developer-Guide': 'https://docs.ros.org/en/rolling/Contributing/Developer-Guide.html',
+    'Contributing/Examples-and-Tools-for-ROS1----ROS2-Migrations': 'https://docs.ros.org/en/rolling/Contributing/Migration-Guide.html#more-examples-and-tools',
+    'Contributing/Inter-Sphinx-Support': 'https://docs.ros.org/en/eloquent/Contributing/Inter-Sphinx-Support.html',
+    'Contributing/Migration-Guide-Python': 'https://docs.ros.org/en/rolling/Contributing/Migration-Guide-Python.html',
+    'Contributing/Migration-Guide': 'https://docs.ros.org/en/rolling/Contributing/Migration-Guide.html',
+    'Contributing/Quality-Guide': 'https://docs.ros.org/en/rolling/Contributing/Quality-Guide.html',
+    'Contributing/ROS-2-On-boarding-Guide': 'https://docs.ros.org/en/eloquent/Contributing/ROS-2-On-boarding-Guide.html',
+    'Contributing/Set-up-a-new-Linux-CI-node': 'https://docs.ros.org/en/eloquent/Contributing/Set-up-a-new-Linux-CI-node.html',
+    'Contributing/Set-up-a-new-macOS-CI-node': 'https://docs.ros.org/en/eloquent/Contributing/Set-up-a-new-macOS-CI-node.html',
+    'Contributing/Set-up-a-new-Windows-CI-node': 'https://docs.ros.org/en/eloquent/Contributing/Set-up-a-new-Windows-CI-node.html',
+
+    # Governance
+    'Governance/ROS2-TSC-Charter': 'https://docs.ros.org/en/rolling/Governance/ROS2-TSC-Charter.html',
+
+    # Installation
+    'Installation/DDS-Implementations': 'https://docs.ros.org/en/foxy/Installation/DDS-Implementations.html',
+    'Installation/Latest-Development-Setup': 'https://docs.ros.org/en/rolling/Installation/Latest-Development-Setup.html',
+    'Installation/Maintaining-a-Source-Checkout': 'https://docs.ros.org/en/rolling/Installation/Maintaining-a-Source-Checkout.html',
+    'Installation/Prerelease-Testing': 'https://docs.ros.org/en/rolling/Installation/Prerelease-Testing.html',
+
+    'Installation/Crystal': 'https://docs.ros.org/en/crystal/Installation.html',
+    'Installation/Crystal/Fedora-Development-Setup': 'https://docs.ros.org/en/crystal/Installation/Fedora-Development-Setup.html',
+    'Installation/Crystal/Linux-Development-Setup': 'https://docs.ros.org/en/crystal/Installation/Linux-Development-Setup.html',
+    'Installation/Crystal/Linux-Install-Binary': 'https://docs.ros.org/en/crystal/Installation/Linux-Install-Binary.html',
+    'Installation/Crystal/Linux-Install-Debians': 'https://docs.ros.org/en/crystal/Installation/Linux-Install-Debians.html',
+    'Installation/Crystal/macOS-Development-Setup': 'https://docs.ros.org/en/crystal/Installation/macOS-Development-Setup.html',
+    'Installation/Crystal/macOS-Install-Binary': 'https://docs.ros.org/en/crystal/Installation/macOS-Install-Binary.html',
+    'Installation/Crystal/Windows-Development-Setup': 'https://docs.ros.org/en/crystal/Installation/Windows-Development-Setup.html',
+    'Installation/Crystal/Windows-Install-Binary': 'https://docs.ros.org/en/crystal/Installation/Windows-Install-Binary.html',
+
+    'Installation/Dashing': 'https://docs.ros.org/en/dashing/Installation.html',
+    'Installation/Dashing/Fedora-Development-Setup': 'https://docs.ros.org/en/dashing/Installation/Fedora-Development-Setup.html',
+    'Installation/Dashing/Linux-Development-Setup': 'https://docs.ros.org/en/dashing/Installation/Linux-Development-Setup.html',
+    'Installation/Dashing/Linux-Install-Binary': 'https://docs.ros.org/en/dashing/Installation/Linux-Install-Binary.html',
+    'Installation/Dashing/Linux-Install-Debians': 'https://docs.ros.org/en/dashing/Installation/Linux-Install-Debians.html',
+    'Installation/Dashing/macOS-Development-Setup': 'https://docs.ros.org/en/dashing/Installation/macOS-Development-Setup.html',
+    'Installation/Dashing/macOS-Install-Binary': 'https://docs.ros.org/en/dashing/Installation/macOS-Install-Binary.html',
+    'Installation/Dashing/Windows-Development-Setup': 'https://docs.ros.org/en/dashing/Installation/Windows-Development-Setup.html',
+    'Installation/Dashing/Windows-Install-Binary': 'https://docs.ros.org/en/dashing/Installation/Windows-Install-Binary.html',
+
+    'Installation/DDS-Implementations/Install-Connext-Security-Plugins': 'https://docs.ros.org/en/foxy/Installation/DDS-Implementations/Install-Connext-Security-Plugins.html',
+    'Installation/DDS-Implementations/Install-Connext-University-Eval': 'https://docs.ros.org/en/foxy/Installation/DDS-Implementations/Install-Connext-University-Eval.html',
+    'Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS': 'https://docs.ros.org/en/foxy/Installation/DDS-Implementations/Working-with-Eclipse-CycloneDDS.html',
+
+    'Installation/Eloquent': 'https://docs.ros.org/en/eloquent/Installation.html',
+    'Installation/Eloquent/Fedora-Development-Setup': 'https://docs.ros.org/en/eloquent/Installation/Fedora-Development-Setup.html',
+    'Installation/Eloquent/Linux-Development-Setup': 'https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html',
+    'Installation/Eloquent/Linux-Install-Binary': 'https://docs.ros.org/en/eloquent/Installation/Linux-Install-Binary.html',
+    'Installation/Eloquent/Linux-Install-Debians': 'https://docs.ros.org/en/eloquent/Installation/Linux-Install-Debians.html',
+    'Installation/Eloquent/macOS-Development-Setup': 'https://docs.ros.org/en/eloquent/Installation/macOS-Development-Setup.html',
+    'Installation/Eloquent/macOS-Install-Binary': 'https://docs.ros.org/en/eloquent/Installation/macOS-Install-Binary.html',
+    'Installation/Eloquent/Windows-Development-Setup': 'https://docs.ros.org/en/eloquent/Installation/Windows-Development-Setup.html',
+    'Installation/Eloquent/Windows-Install-Binary': 'https://docs.ros.org/en/eloquent/Installation/Windows-Install-Binary.html',
+
+    'Installation/Foxy': 'https://docs.ros.org/en/foxy/Installation.html',
+    'Installation/Foxy/Fedora-Development-Setup': 'https://docs.ros.org/en/foxy/Installation/Fedora-Development-Setup.html',
+    'Installation/Foxy/Linux-Development-Setup': 'https://docs.ros.org/en/foxy/Installation/Linux-Development-Setup.html',
+    'Installation/Foxy/Linux-Install-Binary': 'https://docs.ros.org/en/foxy/Installation/Linux-Install-Binary.html',
+    'Installation/Foxy/Linux-Install-Debians': 'https://docs.ros.org/en/foxy/Installation/Linux-Install-Debians.html',
+    'Installation/Foxy/macOS-Development-Setup': 'https://docs.ros.org/en/foxy/Installation/macOS-Development-Setup.html',
+    'Installation/Foxy/macOS-Install-Binary': 'https://docs.ros.org/en/foxy/Installation/macOS-Install-Binary.html',
+    'Installation/Foxy/Windows-Development-Setup': 'https://docs.ros.org/en/foxy/Installation/Windows-Development-Setup.html',
+    'Installation/Foxy/Windows-Install-Binary': 'https://docs.ros.org/en/foxy/Installation/Windows-Install-Binary.html',
+
+    'Installation/Rolling': 'https://docs.ros.org/en/rolling/Installation.html',
+    'Installation/Rolling/Fedora-Development-Setup': 'https://docs.ros.org/en/rolling/Installation/Fedora-Development-Setup.html',
+    'Installation/Rolling/Linux-Development-Setup': 'https://docs.ros.org/en/rolling/Installation/Linux-Development-Setup.html',
+    'Installation/Rolling/Linux-Install-Binary': 'https://docs.ros.org/en/rolling/Installation/Linux-Install-Binary.html',
+    'Installation/Rolling/Linux-Install-Debians': 'https://docs.ros.org/en/rolling/Installation/Linux-Install-Debians.html',
+    'Installation/Rolling/macOS-Development-Setup': 'https://docs.ros.org/en/rolling/Installation/macOS-Development-Setup.html',
+    'Installation/Rolling/macOS-Install-Binary': 'https://docs.ros.org/en/rolling/Installation/macOS-Install-Binary.html',
+    'Installation/Rolling/Windows-Development-Setup': 'https://docs.ros.org/en/rolling/Installation/Windows-Development-Setup.html',
+    'Installation/Rolling/Windows-Install-Binary': 'https://docs.ros.org/en/rolling/Installation/Windows-Install-Binary.html',
+
+    # Marketing - no html files
+
+    # Related-Projects
+    'Related-Projects/Intel-ROS2-Projects': 'https://docs.ros.org/en/rolling/Related-Projects/Intel-ROS2-Projects.html',
+
+    # Releases
+    'Releases/Alpha-Overview': 'https://docs.ros.org/en/foxy/Releases/Alpha-Overview.html',
+    'Releases/Beta1-Overview': 'https://docs.ros.org/en/foxy/Releases/Beta1-Overview.html',
+    'Releases/Beta2-Overview': 'https://docs.ros.org/en/foxy/Releases/Beta2-Overview.html',
+    'Releases/Beta3-Overview': 'https://docs.ros.org/en/foxy/Releases/Beta3-Overview.html',
+    'Releases/Release-Ardent-Apalone': 'https://docs.ros.org/en/foxy/Releases/Release-Ardent-Apalone.html',
+    'Releases/Release-Bouncy-Bolson': 'https://docs.ros.org/en/foxy/Releases/Release-Bouncy-Bolson.html',
+    'Releases/Release-Crystal-Clemmys': 'https://docs.ros.org/en/foxy/Releases/Release-Crystal-Clemmys.html',
+    'Releases/Release-Dashing-Diademata': 'https://docs.ros.org/en/foxy/Releases/Release-Dashing-Diademata.html',
+    'Releases/Release-Eloquent-Elusor': 'https://docs.ros.org/en/foxy/Releases/Release-Eloquent-Elusor.html',
+    'Releases/Release-Foxy-Fitzroy': 'https://docs.ros.org/en/foxy/Releases/Release-Foxy-Fitzroy.html',
+    'Releases/Release-Galactic-Geochelone': 'https://docs.ros.org/en/foxy/Releases/Release-Galactic-Geochelone.html',
+    'Releases/Release-Howto': 'https://docs.ros.org/en/foxy/Releases/Release-Howto.html',
+    'Releases/Release-Rolling-Ridley': 'https://docs.ros.org/en/foxy/Releases/Release-Rolling-Ridley.html',
+
+    # Troubleshooting
+    'Troubleshooting/DDS-tuning': 'https://docs.ros.org/en/rolling/Troubleshooting/DDS-tuning.html',
+    'Troubleshooting/Installation-Troubleshooting': 'https://docs.ros.org/en/rolling/Troubleshooting/Installation-Troubleshooting.html',
+
+    # Tutorials
+    'Tutorials/Actions/Creating-an-Action': 'https://docs.ros.org/en/foxy/Tutorials/Actions/Creating-an-Action.html',
+    'Tutorials/Actions/Writing-a-Cpp-Action-Server-Client': 'https://docs.ros.org/en/foxy/Tutorials/Actions/Writing-a-Cpp-Action-Server-Client.html',
+    'Tutorials/Actions/Writing-a-Py-Action-Server-Client': 'https://docs.ros.org/en/foxy/Tutorials/Actions/Writing-a-Py-Action-Server-Client.html',
+    'Tutorials/Allocator-Template-Tutorial': 'https://docs.ros.org/en/foxy/Tutorials/Allocator-Template-Tutorial.html',
+    'Tutorials/Ament-CMake-Documentation': 'https://docs.ros.org/en/foxy/Tutorials/Ament-CMake-Documentation.html',
+    'Tutorials/Building-Realtime-rt_preempt-kernel-for-ROS-2': 'https://docs.ros.org/en/foxy/Tutorials/Building-Realtime-rt_preempt-kernel-for-ROS-2.html',
+    'Tutorials/Building-ROS-2-on-Linux-with-Eclipse-Oxygen': 'https://docs.ros.org/en/foxy/Tutorials/Building-ROS2-Package-with-eclipse-2021-06.html',
+    'Tutorials/catment': 'https://docs.ros.org/en/foxy/Concepts/About-Catment.html',
+    'Tutorials/Colcon-Tutorial': 'https://docs.ros.org/en/foxy/Tutorials/Colcon-Tutorial.html',
+    'Tutorials/Composition': 'https://docs.ros.org/en/foxy/Tutorials/Composition.html',
+    'Tutorials/Configuring-ROS2-Environment': 'https://docs.ros.org/en/foxy/Tutorials/Configuring-ROS2-Environment.html',
+    'Tutorials/Creating-Your-First-ROS2-Package': 'https://docs.ros.org/en/foxy/Tutorials/Creating-Your-First-ROS2-Package.html',
+    'Tutorials/Cross-compilation': 'https://docs.ros.org/en/foxy/Tutorials/Cross-compilation.html',
+    'Tutorials/Custom-ROS2-Interfaces': 'https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html',
+    'Tutorials/Deploying-ROS-2-on-IBM-Cloud': 'https://docs.ros.org/en/foxy/Tutorials/Deploying-ROS-2-on-IBM-Cloud.html',
+    'Tutorials/Developing-a-ROS-2-Package': 'https://docs.ros.org/en/foxy/Tutorials/Developing-a-ROS-2-Package.html',
+    'Tutorials/dummy-robot-demo': 'https://docs.ros.org/en/foxy/Tutorials/dummy-robot-demo.html',
+    'Tutorials/Discovery-Server/Discovery-Server': 'https://docs.ros.org/en/foxy/Tutorials/Discovery-Server/Discovery-Server.html',
+    'Tutorials/Eclipse-Oxygen-with-ROS-2-and-rviz2': 'https://docs.ros.org/en/foxy/Tutorials/Eclipse-Oxygen-with-ROS-2-and-rviz2.html',
+    'Tutorials/Getting-Started-With-Ros2doctor': 'https://docs.ros.org/en/foxy/Tutorials/Getting-Started-With-Ros2doctor.html',
+    'Tutorials/Intra-Process-Communication': 'https://docs.ros.org/en/foxy/Tutorials/Intra-Process-Communication.html',
+    'Tutorials/Introspection-with-command-line-tools': 'https://docs.ros.org/en/foxy/Tutorials/Introspection-with-command-line-tools.html',
+    'Tutorials/Launch-Files/Creating-Launch-Files': 'https://docs.ros.org/en/foxy/Tutorials/Launch-Files/Creating-Launch-Files.html',
+    'Tutorials/Launch-files-migration-guide': 'https://docs.ros.org/en/foxy/Tutorials/Launch-files-migration-guide.html',
+    'Tutorials/Launch-system': 'https://docs.ros.org/en/foxy/Tutorials/Launch-system.html',
+    'Tutorials/Logging-and-logger-configuration': 'https://docs.ros.org/en/foxy/Tutorials/Logging-and-logger-configuration.html',
+    'Tutorials/Managed-Nodes': 'https://docs.ros.org/en/foxy/Tutorials/Managed-Nodes.html',
+    'Tutorials/Node-arguments': 'https://docs.ros.org/en/foxy/Tutorials/Node-arguments.html',
+    'Tutorials/Parameters/Understanding-ROS2-Parameters': 'https://docs.ros.org/en/foxy/Tutorials/Parameters/Understanding-ROS2-Parameters.html',
+    'Tutorials/Parameters-YAML-files-migration-guide': 'https://docs.ros.org/en/foxy/Tutorials/Parameters-YAML-files-migration-guide.html',
+    'Tutorials/Quality-of-Service': 'https://docs.ros.org/en/foxy/Tutorials/Quality-of-Service.html',
+    'Tutorials/Real-Time-Programming': 'https://docs.ros.org/en/foxy/Tutorials/Real-Time-Programming.html',
+    'Tutorials/Releasing-a-ROS-2-package-with-bloom': 'https://docs.ros.org/en/foxy/Tutorials/Releasing-a-ROS-2-package-with-bloom.html',
+    'Tutorials/Ros2bag/Overriding-QoS-Policies-For-Recording-And-Playback': 'https://docs.ros.org/en/foxy/Tutorials/Ros2bag/Overriding-QoS-Policies-For-Recording-And-Playback.html',
+    'Tutorials/Ros2bag/Recording-And-Playing-Back-Data': 'https://docs.ros.org/en/foxy/Tutorials/Ros2bag/Recording-And-Playing-Back-Data.html',
+    'Tutorials/Rosbag-with-ROS1-Bridge': 'https://docs.ros.org/en/foxy/Tutorials/Rosbag-with-ROS1-Bridge.html',
+    'Tutorials/Rqt-Console/Using-Rqt-Console': 'https://docs.ros.org/en/foxy/Tutorials/Rqt-Console/Using-Rqt-Console.html',
+    'Tutorials/RQt-Overview-Usage': 'https://docs.ros.org/en/foxy/Tutorials/RQt-Overview-Usage.html',
+    'Tutorials/RQt-Port-Plugin-Windows': 'https://docs.ros.org/en/foxy/Tutorials/RQt-Port-Plugin-Windows.html',
+    'Tutorials/RQt-Source-Install-MacOS': 'https://docs.ros.org/en/foxy/Guides/RQt-Source-Install-MacOS.html',
+    'Tutorials/RQt-Source-Install': 'https://docs.ros.org/en/foxy/Guides/RQt-Source-Install.html',
+    'Tutorials/RQt-Source-Install-Windows10': 'https://docs.ros.org/en/foxy/Guides/RQt-Source-Install-Windows10.html',
+    'Tutorials/Run-2-nodes-in-a-single-docker-container': 'https://docs.ros.org/en/foxy/Tutorials/Run-2-nodes-in-a-single-docker-container.html',
+    'Tutorials/Run-2-nodes-in-two-separate-docker-containers': 'https://docs.ros.org/en/foxy/Tutorials/Run-2-nodes-in-two-separate-docker-containers.html',
+    'Tutorials/Services/Understanding-ROS2-Services': 'https://docs.ros.org/en/foxy/Tutorials/Services/Understanding-ROS2-Services.html',
+    'Tutorials/Single-Package-Define-And-Use-Interface': 'https://docs.ros.org/en/foxy/Tutorials/Single-Package-Define-And-Use-Interface.html',
+    'Tutorials/Sync-Vs-Async': 'https://docs.ros.org/en/foxy/Tutorials/Sync-Vs-Async.html',
+    'Tutorials/tf2': 'https://docs.ros.org/en/foxy/Tutorials/tf2.html',
+    'Tutorials/Topics/Topic-Statistics-Tutorial': 'https://docs.ros.org/en/foxy/Tutorials/Topics/Topic-Statistics-Tutorial.html',
+    'Tutorials/Topics/Understanding-ROS2-Topics': 'https://docs.ros.org/en/foxy/Tutorials/Topics/Understanding-ROS2-Topics.html',
+    'Tutorials/Turtlesim/Introducing-Turtlesim': 'https://docs.ros.org/en/foxy/Tutorials/Turtlesim/Introducing-Turtlesim.html',
+    'Tutorials/Understanding-ROS2-Actions': 'https://docs.ros.org/en/foxy/Tutorials/Understanding-ROS2-Actions.html',
+    'Tutorials/Understanding-ROS2-Nodes': 'https://docs.ros.org/en/foxy/Tutorials/Understanding-ROS2-Nodes.html',
+    'Tutorials/URDF/Using-URDF-with-Robot-State-Publisher': 'https://docs.ros.org/en/foxy/Tutorials/URDF/Using-URDF-with-Robot-State-Publisher.html',
+    'Tutorials/Using-Parameters-In-A-Class-CPP': 'https://docs.ros.org/en/foxy/Tutorials/Using-Parameters-In-A-Class-CPP.html',
+    'Tutorials/Using-Parameters-In-A-Class-Python': 'https://docs.ros.org/en/foxy/Tutorials/Using-Parameters-In-A-Class-Python.html',
+    'Tutorials/Using-Python-Packages': 'https://docs.ros.org/en/foxy/Tutorials/Using-Python-Packages.html',
+    'Tutorials/Working-with-multiple-RMW-implementations': 'https://docs.ros.org/en/foxy/Tutorials/Working-with-multiple-RMW-implementations.html',
+    'Tutorials/Workspace/Creating-A-Workspace': 'https://docs.ros.org/en/foxy/Tutorials/Workspace/Creating-A-Workspace.html',
+    'Tutorials/Writing-A-Simple-Cpp-Publisher-And-Subscriber': 'https://docs.ros.org/en/foxy/Tutorials/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html',
+    'Tutorials/Writing-A-Simple-Cpp-Service-And-Client': 'https://docs.ros.org/en/foxy/Tutorials/Writing-A-Simple-Cpp-Service-And-Client.html',
+    'Tutorials/Writing-A-Simple-Py-Publisher-And-Subscriber': 'https://docs.ros.org/en/foxy/Tutorials/Writing-A-Simple-Py-Publisher-And-Subscriber.html',
+    'Tutorials/Writing-A-Simple-Py-Service-And-Client': 'https://docs.ros.org/en/foxy/Tutorials/Writing-A-Simple-Py-Service-And-Client.html',
+}
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 
 class RedirectFrom(Directive):
 
@@ -299,6 +538,63 @@ def expand_macros(app, docname, source):
         result = result.replace(f'{{{key}}}', value)
     source[0] = result
 
+def apply_redirects(app, exception):
+    redirects = app.config['redirects']
+
+    if not redirects:
+        return
+
+    from sphinx.builders.html import StandaloneHTMLBuilder
+    from sphinxcontrib.serializinghtml import JSONHTMLBuilder
+
+    if isinstance(app.builder, JSONHTMLBuilder):
+        # If the builder is the JSONHTMLBuilder, then to support redirects from
+        # the https://github.com/ros-infrastructure/rosindex site, we need to
+        # add a 'canonical_url' portion to the JSON.  When that is in place, the
+        # site generator will automatically use that as a redirect.
+
+        for source, target in redirects.items():
+            # examine if it matches to some doc
+            for doc in app.env.found_docs:
+                if fnmatch(doc, source):
+                    file_path = Path(app.outdir).joinpath(doc).with_suffix('.fjson')
+                    with open(file_path, 'r') as infp:
+                        data = json.load(infp)
+                    data['canonical_url'] = target
+                    with open(file_path, 'w') as outfp:
+                        json.dump(data, outfp)
+    elif isinstance(app.builder, StandaloneHTMLBuilder):
+        # If the builder is the StandaloneHTMLBuilder, we just assume that the
+        # user meant to generate an HTML file and do that here.
+
+        # The below code is a lightly-modified version of the code at
+        # https://gitlab.com/documatt/sphinx-reredirects . It is licensed as BSD.
+
+        # HTML used as redirect file content
+        redirect_template = '<html><head><meta http-equiv="refresh" content="0; url=${to_uri}"></head></html>'
+        # For each entry
+        for source, target in redirects.items():
+            # examine if it matches to some doc
+            for doc in app.env.found_docs:
+                if fnmatch(doc, source):
+                    # if so, apply $source placeholder
+                    new_target = Template(target).substitute({'source': doc})
+                    # create redirect file
+                    redirect_file_path = Path(app.outdir).joinpath(doc).with_suffix('.html')
+                    content = Template(redirect_template).substitute({'to_uri': new_target})
+                    redirect_file_path.write_text(content)
+    else:
+        print('Only JSON and HTML builders support redirects')
+
+
+def copy_downloadable_files(app, exception):
+    for source, dest in app.config.custom_copy_files.items():
+        source_path = os.path.join(app.srcdir, source)
+        dest_path = os.path.join(app.outdir, dest)
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+        shutil.copyfile(source_path, dest_path)
+
+
 def setup(app):
     app.connect('config-inited', smv_rewrite_configs)
     app.connect('html-page-context', github_link_rewrite_branch)
@@ -306,3 +602,16 @@ def setup(app):
     app.add_config_value('smv_eol_versions', [], 'html')
     app.add_config_value('macros', {}, True)
     RedirectFrom.register(app)
+<<<<<<< HEAD
+=======
+
+    app.connect('build-finished', apply_redirects)
+    app.add_config_value('redirects', {}, 'env')
+
+    app.connect('build-finished', copy_downloadable_files)
+    app.add_config_value('custom_copy_files', {}, 'env')
+
+    app.connect('missing-reference', make_router(
+        'Installation', 'Installation/Eloquent'
+    ))
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

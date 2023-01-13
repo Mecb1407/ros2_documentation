@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Installation/Alternatives/Fedora-Development-Setup.rst
 .. redirect-from::
 
   Installation/Fedora-Development-Setup
@@ -48,4 +49,8 @@ Se requieren las siguientes dependencias del sistema para compilar ROS 2 en Fedo
 
 
 Una vez hecho esto, puedes seguir el resto de las :ref:`instrucciones <Rolling_rhel-dev-get-ros2-code>` para obtener y compilar ROS 2.
+=======
+:orphan:
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Installation/Foxy/Fedora-Development-Setup.rst
 
+The files on this branch are no longer used.  See the 'rolling' branch instead.

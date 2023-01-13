@@ -1,10 +1,11 @@
-.. _Colcon:
+:orphan:
 
 .. redirect-from::
 
     Colcon-Tutorial
     Tutorials/Colcon-Tutorial
 
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.rst
 Using ``colcon`` to build packages
 ==================================
 
@@ -367,3 +368,6 @@ Tips
   .. code-block:: bash
 
      colcon test --packages-select YOUR_PKG_NAME --ctest-args -R YOUR_TEST_IN_PKG
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Colcon-Tutorial.rst

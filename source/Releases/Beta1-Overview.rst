@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
   Beta1-Overview
 
+<<<<<<< HEAD
 Beta 1 (``Asphalt``)
 ====================
 
@@ -63,3 +66,6 @@ Known issues
 * We’re tracking issues in various repositories, but the main entry point is the `ros2/ros2 issue tracker <https://github.com/ros2/ros2/issues>`__
 * We’d like to highlight a `known issue <https://github.com/ros2/rmw_fastrtps/issues/81>`__ that we are working with eProsima to fix that results in significantly degrated performance for large messages under FastRTPS.
   This will be observed when running some of the demos with larger image resolutions.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

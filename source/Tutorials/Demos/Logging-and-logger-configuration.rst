@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Logging-and-logger-configuration
     Tutorials/Logging-and-logger-configuration
 
+<<<<<<< HEAD:source/Tutorials/Demos/Logging-and-logger-configuration.rst
 Logging
 =======
 
@@ -441,3 +444,6 @@ Then run:
 .. code-block:: bash
 
     ros2 run logging_demo logging_demo_main
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Logging-and-logger-configuration.rst

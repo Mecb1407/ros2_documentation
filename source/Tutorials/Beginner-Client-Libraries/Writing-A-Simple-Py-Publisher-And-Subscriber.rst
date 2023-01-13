@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.rst
 .. redirect-from::
 
     Tutorials/Writing-A-Simple-Py-Publisher-And-Subscriber
@@ -530,3 +531,8 @@ Related content
 ---------------
 
 There are several ways you could write a publisher and subscriber in Python; check out the ``minimal_publisher`` and ``minimal_subscriber`` packages in the `ros2/examples <https://github.com/ros2/examples/tree/{REPOS_FILE_BRANCH}/rclpy/topics>`_ repo.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Writing-A-Simple-Py-Publisher-And-Subscriber.rst

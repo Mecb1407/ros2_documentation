@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Launch-files-migration-guide.rst
 .. redirect-from::
 
   Guides/Launch-files-migration-guide
@@ -425,3 +426,8 @@ For example:
 
 Some attributes accept more than a single type, for example ``value`` attribute of ``param`` tag.
 It's usual that parameters that are of type ``int`` (or ``float``) also accept an ``str``, that will be later substituted and tried to convert to an ``int`` (or ``float``) by the action.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Launch-files-migration-guide.rst

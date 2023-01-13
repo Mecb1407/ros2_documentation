@@ -1,9 +1,13 @@
 doc8
 docutils==0.16
 pip
+<<<<<<< HEAD
 sphinx<6.0.0
 sphinx-copybutton
 sphinx-multiversion
 sphinx-rtd-theme
 sphinx-sitemap
 sphinx-tabs
+=======
+sphinx
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

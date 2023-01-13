@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Getting-Started-With-Ros2doctor.rst
 .. redirect-from::
 
     Tutorials/Getting-Started-With-Ros2doctor
@@ -202,3 +203,8 @@ Next steps
 ----------------
 
 You’ve completed the beginner level tutorials!
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Getting-Started-With-Ros2doctor.rst

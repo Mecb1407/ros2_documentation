@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.rst
 .. redirect-from::
 
     Tutorials/Understanding-ROS2-Nodes
@@ -200,3 +201,8 @@ Related content
 ---------------
 
 The :doc:`../../../Concepts` page adds some more detail to the concept of nodes.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Understanding-ROS2-Nodes.rst

@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Quality-of-Service
     Tutorials/Quality-of-Service
 
+<<<<<<< HEAD:source/Tutorials/Demos/Quality-of-Service.rst
 Using quality-of-service settings for lossy networks
 ====================================================
 
@@ -186,3 +189,6 @@ When you're done, remember to delete the queueing discipline:
 .. code-block:: bash
 
    sudo tc qdisc delete dev lo root netem loss 5%
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Quality-of-Service.rst

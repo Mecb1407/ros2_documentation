@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Service-And-Client.rst
 .. redirect-from::
 
     Tutorials/Writing-A-Simple-Py-Service-And-Client
@@ -354,3 +355,8 @@ Related content
 * In this tutorial, you used the ``call_async()`` API in your client node to call the service.
   There is another service call API available for Python called synchronous calls.
   We do not recommend using synchronous calls, but if you'd like to learn more about them, read the guide to :doc:`Synchronous vs. asynchronous clients <../../How-To-Guides/Sync-Vs-Async>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Writing-A-Simple-Py-Service-And-Client.rst

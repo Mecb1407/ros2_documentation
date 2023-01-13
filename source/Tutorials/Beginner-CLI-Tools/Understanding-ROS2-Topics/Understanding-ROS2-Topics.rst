@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.rst
 .. redirect-from::
 
     Tutorials/Topics/Understanding-ROS2-Topics
@@ -329,3 +330,8 @@ Next steps
 ----------
 
 Next you'll learn about another communication type in the ROS graph with the tutorial :doc:`../Understanding-ROS2-Services/Understanding-ROS2-Services`
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Topics/Understanding-ROS2-Topics.rst

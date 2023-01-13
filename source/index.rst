@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. redirect-from::
 
   Docs-Guide
@@ -149,3 +150,8 @@ Obsoleto
 
    - Decisiones de diseño iniciales detrás del desarrollo de ROS 2
    - Las nuevas propuestas de diseño deben enviarse a través de `Propuestas de mejora de ROS (REP) <https://ros.org/reps/rep-0000.html>`__
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

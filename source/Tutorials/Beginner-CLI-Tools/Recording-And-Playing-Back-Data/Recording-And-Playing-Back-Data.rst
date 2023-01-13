@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.rst
 .. redirect-from::
 
     Tutorials/Ros2bag/Recording-And-Playing-Back-Data
@@ -265,3 +266,8 @@ Related content
 
 A more thorough explanation of ``ros2 bag`` can be found in the README `here <https://github.com/ros2/rosbag2>`__.
 For more information on QoS compatibility and ``ros2 bag``, see :doc:`../../../How-To-Guides/Overriding-QoS-Policies-For-Recording-And-Playback`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Ros2bag/Recording-And-Playing-Back-Data.rst

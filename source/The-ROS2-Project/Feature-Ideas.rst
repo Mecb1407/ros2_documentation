@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/The-ROS2-Project/Feature-Ideas.rst
 .. redirect-from::
 
   Feature-Ideas
@@ -149,3 +150,8 @@ Reducing Technical Debt
 * Address / classify pending tickets
 * Address TODOs in code / docs
 * Remove tinyxml as a dependency
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Feature-Ideas.rst

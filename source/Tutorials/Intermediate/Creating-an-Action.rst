@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Intermediate/Creating-an-Action.rst
 .. redirect-from::
 
     Tutorials/Actions/Creating-an-Action
@@ -191,3 +192,8 @@ Related content
 ---------------
 
 For more detailed information about ROS actions, please refer to the `design article <http://design.ros2.org/articles/actions.html>`__.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Actions/Creating-an-Action.rst

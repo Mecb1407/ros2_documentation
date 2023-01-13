@@ -1,9 +1,10 @@
-.. _InterfaceConcept:
+:orphan:
 
 .. redirect-from::
 
     About-ROS-Interfaces
 
+<<<<<<< HEAD
 About ROS 2 interfaces
 ======================
 
@@ -276,3 +277,6 @@ Atop ROS 1's existing feature set, the ROS 2 IDL introduces some new features, n
 * **default values**: Whereas the ROS 1 IDL allows constant fields (e.g., ``int32 X=123``), the ROS 2 IDL further allows default values to be specified (e.g., ``int32 X 123``).
   The default value is used when constructing a message/service object and can be subsequently overridden by assigning to the field.
   You can also specify default values for action parts.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

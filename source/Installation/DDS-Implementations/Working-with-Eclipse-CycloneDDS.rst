@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
     Working-with-Eclipse-CycloneDDS
 
+<<<<<<< HEAD
 Eclipse Cyclone DDS
 ===================
 
@@ -73,3 +76,6 @@ Ahora ejecuta ``talker`` y ``listener`` para probar Cyclone DDS.
 .. code-block:: bash
 
    ros2 run demo_nodes_cpp listener
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

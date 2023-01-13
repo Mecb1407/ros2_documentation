@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.rst
 .. redirect-from::
 
     Tutorials/Turtlesim/Introducing-Turtlesim
@@ -270,3 +271,8 @@ The turtlesim package can be found in the `ros_tutorials repo <https://github.co
 Make sure to adjust the branch to view the version of turtlesim corresponding to your installed ROS 2 distro.
 
 `This community contributed video <https://youtu.be/xwT7XWflMdc>`_ demonstrates many of the items covered in this tutorial.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Turtlesim/Introducing-Turtlesim.rst

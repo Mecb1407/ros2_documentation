@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
    Alpha-Overview
 
+<<<<<<< HEAD
 Alphas
 ======
 
@@ -409,3 +412,6 @@ The major features included in this release are:
 
 Pretty much anything not listed above is not included in this release.
 The next steps are described in the `Roadmap <../../The-ROS2-Project/Roadmap>`.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

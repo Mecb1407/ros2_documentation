@@ -1,5 +1,6 @@
-.. _Help:
+:orphan:
 
+<<<<<<< HEAD
 Contacto
 =========
 
@@ -131,3 +132,6 @@ Contacto privado
 -----------------
 
 Si deseas comunicarte con nosotros de forma privada (por ejemplo, si tu pregunta contiene información confidencial para tu organización o proyecto, o si se trata de un problema de seguridad), puedes enviarnos un correo electrónico directamente a ros@osrfoundation.org.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

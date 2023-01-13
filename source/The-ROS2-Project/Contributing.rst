@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/The-ROS2-Project/Contributing.rst
 .. redirect-from::
 
   Contributing
@@ -115,3 +116,8 @@ Becoming a maintainer of one or more of those repositories is an invitation-only
 Approximately every 3 months, the ROS 2 team will review the contributions in all of the repositories and send out invitations to new maintainers.
 Once the invitation is accepted, the new maintainer will be asked to go through a short training process on the mechanisms and policies of the ROS 2 repositories.
 After that training process is completed, the new maintainer will be given write access to the appropriate repositories.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Contributing.rst

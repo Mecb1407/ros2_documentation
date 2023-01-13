@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Foxy Fitzroy (``foxy``)
 =======================
 
@@ -475,3 +476,8 @@ A few milestones leading up to the release:
 
 .. [1] The ``ros_core`` variant described in the `variants <https://github.com/ros2/variants>`_ repository.
 .. [2] The ``desktop`` variant described in the `variants <https://github.com/ros2/variants>`_ repository.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Cross-compilation.rst
 .. redirect-from::
 
   Guides/Cross-compilation
@@ -318,3 +319,8 @@ Run some of the C++ or python examples:
 
     ros2 run demo_nodes_cpp listener &
     ros2 run demo_nodes_py talker
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Cross-compilation.rst

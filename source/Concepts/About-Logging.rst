@@ -1,7 +1,13 @@
+<<<<<<< HEAD
+=======
+:orphan:
+
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 .. redirect-from::
 
     Logging
 
+<<<<<<< HEAD
 About logging and logger configuration
 ======================================
 
@@ -192,3 +198,6 @@ Logging usage
 
     * See the `rclpy examples <https://github.com/ros2/examples/blob/{REPOS_FILE_BRANCH}/rclpy/services/minimal_client/examples_rclpy_minimal_client/client.py>`__ for example usage of a node's logger.
     * See the `rclpy tests <https://github.com/ros2/rclpy/blob/{REPOS_FILE_BRANCH}/rclpy/test/test_logging.py>`__ for example usage of keyword arguments (e.g. ``skip_first``, ``once``).
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

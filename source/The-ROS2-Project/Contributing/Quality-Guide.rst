@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Quality-Guide
     Contributing/Quality-Guide
 
+<<<<<<< HEAD:source/The-ROS2-Project/Contributing/Quality-Guide.rst
 Quality guide: ensuring code quality
 ====================================
 
@@ -264,3 +267,6 @@ Dynamic analysis (data races & deadlocks)
 * Overhead due to production code instrumentation (maintenance of separate branches for instrumented/not instrumented production code, etc.).
 * Instrumented code needs more memory per thread (in case of ThreadSanitizer).
 * Instrumented code maps a lot virtual address space (in case of ThreadSanitizer).
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Contributing/Quality-Guide.rst

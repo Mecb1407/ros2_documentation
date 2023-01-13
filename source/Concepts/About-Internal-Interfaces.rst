@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 About internal ROS 2 interfaces
 ===============================
 
@@ -190,3 +191,8 @@ These are mainly used for error handling, commandline argument parsing, and logg
 The ``rcutils`` |API| and implementation are located in the `ros2/rcutils <https://github.com/ros2/rcutils>`_ repository on |GitHub|_ which contains the interface as C headers.
 
 For a complete definition of the ``rcutils`` |API|, see `its API documentation <http://docs.ros2.org/foxy/api/rcutils/index.html>`_
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

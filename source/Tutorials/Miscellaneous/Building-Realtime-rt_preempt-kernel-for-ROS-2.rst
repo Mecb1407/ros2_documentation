@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Building-Realtime-rt_preempt-kernel-for-ROS-2
     Tutorials/Building-Realtime-rt_preempt-kernel-for-ROS-2
 
+<<<<<<< HEAD:source/Tutorials/Miscellaneous/Building-Realtime-rt_preempt-kernel-for-ROS-2.rst
 Building a real-time Linux kernel [community-contributed]
 =========================================================
 
@@ -148,3 +151,6 @@ Now the real time kernel should be installed. Reboot the system and check the ne
    sudo reboot
    uname -a
    Linux ros2host 5.4.78-rt44 #1 SMP PREEMPT_RT Fri Nov 6 10:37:59 CET 2020 x86_64 xx
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Building-Realtime-rt_preempt-kernel-for-ROS-2.rst

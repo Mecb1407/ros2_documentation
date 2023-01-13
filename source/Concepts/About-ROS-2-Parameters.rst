@@ -1,9 +1,10 @@
-.. _AboutParameters:
+:orphan:
 
 .. redirect-from::
 
     About-ROS-2-Parameters
 
+<<<<<<< HEAD
 About parameters in ROS 2
 =========================
 
@@ -130,3 +131,6 @@ ROS 2 ships with one in in the ``ros-{DISTRO}-demo-nodes-cpp`` package called ``
    ros2 run demo_nodes_cpp parameter_blackboard
 
 The code for the ``parameter_blackboard`` is `here <https://github.com/ros2/demos/blob/{REPOS_FILE_BRANCH}/demo_nodes_cpp/src/parameters/parameter_blackboard.cpp>`__.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

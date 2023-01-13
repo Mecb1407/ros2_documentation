@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Parameters-YAML-files-migration-guide.rst
 .. redirect-from::
 
   Guides/Parameters-YAML-files-migration-guide
@@ -54,3 +55,8 @@ Some features of ROS 1 parameters files do not exist in ROS 2:
 
 - Mixed types in a list is not supported yet (`related issue <https://github.com/ros2/rcl/issues/463>`_)
 - ``deg`` and ``rad`` substitutions are not supported
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Parameters-YAML-files-migration-guide.rst

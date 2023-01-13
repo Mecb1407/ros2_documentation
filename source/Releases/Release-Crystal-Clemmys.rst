@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
   Release-Crystal-Clemmys
 
+<<<<<<< HEAD
 Crystal Clemmys (``crystal``)
 =============================
 
@@ -158,3 +161,6 @@ Known Issues
 * When using OpenSplice (version < 6.9.190227) on macOS and Windows you might experience naming conflicts when when referencing field types with names from other packages if the same name also exist in the current package (`Issue <https://github.com/ros2/rmw_opensplice/issues/259>`__).
   By updating to a newer OpenSplice version as well as at least the third patch release of Crystal the problem should be resolved.
   On Linux updating to the latest Debian packages will include the newest OpenSplice version.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

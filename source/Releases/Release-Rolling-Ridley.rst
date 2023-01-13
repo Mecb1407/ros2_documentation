@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Rolling Ridley (``rolling``)
 ============================
 
@@ -41,3 +42,8 @@ New features and changes in this release
 
 Rolling Ridley is an ongoing development distribution.
 Changes between the current stable release and the upcoming one can be found on the page for the `upcoming release <upcoming-release>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

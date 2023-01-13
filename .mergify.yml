@@ -6,8 +6,13 @@ pull_request_rules:
     actions:
       backport:
         branches:
+<<<<<<< HEAD
           - humble
           - foxy
+=======
+          - foxy
+          - dashing
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 
   - name: backport at reviewers discretion
     conditions:
@@ -16,6 +21,7 @@ pull_request_rules:
     actions:
       backport:
         branches:
+<<<<<<< HEAD
           - humble
           - foxy
 
@@ -27,6 +33,10 @@ pull_request_rules:
       backport:
         branches:
           - humble
+=======
+          - foxy
+          - dashing
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 
   - name: backport to foxy at reviewers discretion
     conditions:
@@ -36,3 +46,15 @@ pull_request_rules:
       backport:
         branches:
           - foxy
+<<<<<<< HEAD
+=======
+
+  - name: backport to dashing at reviewers discretion
+    conditions:
+      - base=rolling
+      - "label=backport-dashing"
+    actions:
+      backport:
+        branches:
+          - dashing
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

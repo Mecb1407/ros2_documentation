@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Deploying-ROS2-on-IBM-Cloud
     Tutorials/Deploying-ROS-2-on-IBM-Cloud
 
+<<<<<<< HEAD:source/Tutorials/Miscellaneous/Deploying-ROS-2-on-IBM-Cloud.rst
 Deploying on IBM Cloud Kubernetes [community-contributed]
 =========================================================
 
@@ -600,3 +603,6 @@ Final Remarks
 ---------------
 
 At this point, you are capable of creating your own docker image using ROS2 packages on github. It is also possible, with little changes to utilize local ROS2 packages as well. This could be the topic of another article. However, you are encouraged to check out the following `Dockerfile <https://github.com/mm-nasr/ros2_ibmcloud/tree/main/dockers/local_pkgs_docker>`__ which uses a local copy of the demos repository. Similarly, you can use your own local package.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Deploying-ROS-2-on-IBM-Cloud.rst

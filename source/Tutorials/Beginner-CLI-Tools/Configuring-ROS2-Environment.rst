@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.rst
 .. redirect-from::
 
     Tutorials/Configuring-ROS2-Environment
@@ -262,3 +263,8 @@ Next steps
 ----------
 
 Now that you have a working ROS 2 installation and you know how to source its setup files, you can start learning the ins and outs of ROS 2 with the :doc:`turtlesim tool <./Introducing-Turtlesim/Introducing-Turtlesim>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Configuring-ROS2-Environment.rst

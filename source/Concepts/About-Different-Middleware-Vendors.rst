@@ -1,7 +1,13 @@
+<<<<<<< HEAD
+=======
+:orphan:
+
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa
 .. redirect-from::
 
     DDS-and-ROS-middleware-implementations
 
+<<<<<<< HEAD
 About different ROS 2 DDS/RTPS vendors
 ======================================
 
@@ -79,3 +85,6 @@ For example, if both ``rmw_cyclonedds_cpp`` and ``rmw_connextdds`` ROS packages 
 If ``rmw_fastrtps_cpp`` is ever installed, it would be the default.
 
 See the :doc:`guide <../How-To-Guides/Working-with-multiple-RMW-implementations>` for how to specify which RMW implementation is to be used when running the ROS 2 examples.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

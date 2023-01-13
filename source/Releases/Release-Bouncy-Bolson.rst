@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
   Release-Bouncy-Bolson
 
+<<<<<<< HEAD
 Bouncy Bolson (``bouncy``)
 ==========================
 
@@ -75,3 +78,6 @@ Known Issues
 * New-style launch files `may hang on shutdown <https://github.com/ros2/launch/issues/89>`__ for some combinations of platform and RMW implementation.
 * Static remapping of namespaces `not working correctly <https://github.com/ros2/rcl/issues/262>`__ when addressed to a particular node.
 * `Opensplice error messages may be printed <https://github.com/ros2/rmw_opensplice/issues/237>`__ when using ``ros2 param`` and ``ros2 lifecycle`` command-line tools.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

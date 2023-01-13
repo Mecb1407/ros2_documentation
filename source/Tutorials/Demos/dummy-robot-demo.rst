@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     dummy-robot-demo
     Tutorials/dummy-robot-demo
 
+<<<<<<< HEAD:source/Tutorials/Demos/dummy-robot-demo.rst
 Experimenting with a dummy robot
 ================================
 
@@ -81,3 +84,6 @@ The ``dummy_joint_states`` node is publishing fake joint state data. As we are p
 The ``robot_state_publisher`` is doing the actual interesting work. It parses the given URDF file, extracts the robot model and listens to the incoming joint states. With this information, it publishes TF values for our robot which we visualize in RViz.
 
 Hooray!
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/dummy-robot-demo.rst

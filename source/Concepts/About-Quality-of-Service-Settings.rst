@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
     About-Quality-of-Service-Settings
 
+<<<<<<< HEAD
 About Quality of Service settings
 =================================
 
@@ -301,3 +304,6 @@ Developers may subscribe to the following QoS events that are associated with a 
 * Requested incompatible QoS
 
   The subscription has encountered a publisher on the same topic that is offering a QoS profile that does not satisfy the requested QoS profile, resulting in no connection between the subscription and that publisher.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

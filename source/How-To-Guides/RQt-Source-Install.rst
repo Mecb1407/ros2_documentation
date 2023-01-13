@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     RQt-Source-Install
     Guides/RQt-Source-Install
 
+<<<<<<< HEAD:source/How-To-Guides/RQt-Source-Install.rst
 Building RQt from source
 ========================
 
@@ -108,3 +111,6 @@ Using RQt
 ----------
 
 See :doc:`Overview of RQt <../Concepts/About-RQt>`.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/RQt-Source-Install.rst

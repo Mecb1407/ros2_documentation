@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
    catment
 
+<<<<<<< HEAD:source/Concepts/About-Catment.rst
 On the mixing of ament and catkin (catment)
 ===========================================
 
@@ -264,3 +267,6 @@ Using ``bloom`` to release ``ament`` packages (TODO)
 
 It seems like ``bloom`` ought be able to release packages that use the ``ament`` CMake API, and that the resulting releases should be able to be built on the farm.
 We can make changes to ``bloom`` and ``ros_buildfarm`` as needed to enable this use case.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/catment.rst

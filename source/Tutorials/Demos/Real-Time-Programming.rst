@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Real-Time-Programming
     Tutorials/Real-Time-Programming
 
+<<<<<<< HEAD:source/Tutorials/Demos/Real-Time-Programming.rst
 Understanding real-time programming
 ===================================
 
@@ -228,3 +231,6 @@ This script will produce three files:
    pendulum_demo_results_plot_minflts.svg
 
 You can view these plots in an image viewer of your choice.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Real-Time-Programming.rst

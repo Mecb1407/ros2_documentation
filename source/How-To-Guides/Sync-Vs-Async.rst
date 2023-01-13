@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Sync-Vs-Async.rst
 .. redirect-from::
 
   Guides/Sync-Vs-Async
@@ -149,3 +150,8 @@ They are susceptible to deadlock, but will not provide any indication of issue w
 If you must use synchronous calls, the example in section `1 Synchronous calls`_ is a safe method of doing so.
 You should also be aware of the conditions that cause deadlock outlined in section `1.1 Sync deadlock`_.
 We recommend using async service clients instead.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Sync-Vs-Async.rst

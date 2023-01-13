@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RTI Connex DDS
 ==============
 
@@ -24,3 +25,8 @@ Para instalar RTI Connext DDS **versión 6.0.1** Evaluación:
   * Comunícate con license@rti.com para obtener una licencia de evaluación.
   * Instala RTI Connext 6.0.1 ejecutando el programa de instalación. Cuando termines, ejecuta el RTI Launcher.
   * Usa RTI Launcher para instalar el archivo de licencia (rti_license.dat) si es necesario. El iniciador también se puede utilizar para iniciar las herramientas y servicios de diagnóstico.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

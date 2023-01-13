@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.rst
 .. redirect-from::
 
     Tutorials/Actions/Writing-a-Cpp-Action-Server-Client
@@ -392,3 +393,8 @@ Related content
 * There are several ways you could write an action server and client in C++; check out the ``minimal_action_server`` and ``minimal_action_client`` packages in the `ros2/examples <https://github.com/ros2/examples/tree/{REPOS_FILE_BRANCH}/rclcpp>`_ repo.
 
 * For more detailed information about ROS actions, please refer to the `design article <http://design.ros2.org/articles/actions.html>`__.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Actions/Writing-a-Cpp-Action-Server-Client.rst

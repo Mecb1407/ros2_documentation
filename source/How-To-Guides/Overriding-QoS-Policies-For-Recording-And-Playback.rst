@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Overriding-QoS-Policies-For-Recording-And-Playback.rst
 .. redirect-from::
 
   Guides/Overriding-QoS-Policies-For-Recording-And-Playback
@@ -109,3 +110,8 @@ We can see the results with ``ros2 topic``
 .. code-block:: console
 
     ros2 topic echo --qos-reliability best_effort /talker std_msgs/String
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Ros2bag/Overriding-QoS-Policies-For-Recording-And-Playback.rst

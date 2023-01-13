@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/The-ROS2-Project/Features.rst
 .. redirect-from::
 
   Features
@@ -90,3 +91,8 @@ The following are a few high-profile packages which are available in the latest 
 * `rosbag2 <https://index.ros.org/r/rosbag2/>`__
 * `RQt <https://index.ros.org/r/rqt/>`__
 * `RViz2 <https://index.ros.org/r/rviz/>`__
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Features.rst

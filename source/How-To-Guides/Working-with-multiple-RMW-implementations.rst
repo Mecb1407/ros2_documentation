@@ -1,9 +1,12 @@
+:orphan:
+
 .. redirect-from::
 
     Working-with-multiple-RMW-implementations
     Guides/Working-with-multiple-RMW-implementations
     Tutorials/Working-with-multiple-RMW-implementations
 
+<<<<<<< HEAD:source/How-To-Guides/Working-with-multiple-RMW-implementations.rst
 Working with multiple ROS 2 middleware implementations
 ======================================================
 
@@ -168,3 +171,6 @@ You will need to reboot the machine after modifying this file to have the change
 
 This solution is edited from the RTI Connext community forum.
 See the `original post <https://community.rti.com/kb/osx510>`__ for more detailed explanation.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Working-with-multiple-RMW-implementations.rst

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 About the build system
 ======================
 
@@ -134,3 +135,8 @@ Build tools
 A build tool performs the task of building a workspace of packages together at once with a single invocation.
 For ROS 2 releases up to Ardent, the build tool providing this functionality is called ``ament_tools``.
 As of ROS 2 Bouncy, ``ament_tools`` has been superseded by ``colcon``, as described in `the universal build tool article <http://design.ros2.org/articles/build_tool.html>`_.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

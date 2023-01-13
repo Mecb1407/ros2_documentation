@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.rst
 .. redirect-from::
 
     Tutorials/Writing-A-Simple-Cpp-Service-And-Client
@@ -428,3 +429,8 @@ Related content
 ---------------
 
 * There are several ways you could write a service and client in C++; check out the ``minimal_service`` and ``minimal_client`` packages in the `ros2/examples <https://github.com/ros2/examples/tree/{REPOS_FILE_BRANCH}/rclcpp/services>`_ repo.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Writing-A-Simple-Cpp-Service-And-Client.rst

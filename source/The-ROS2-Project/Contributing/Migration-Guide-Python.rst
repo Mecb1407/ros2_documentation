@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
     Migration-Guide-Python
 
+<<<<<<< HEAD:source/The-ROS2-Project/Contributing/Migration-Guide-Python.rst
 Python migration guide from ROS 1
 =================================
 
@@ -122,3 +125,6 @@ In ROS 2:
        node.get_logger().info('service not available, waiting again...')
    resp = add_two_ints.call_async(req)
    rclpy.spin_until_future_complete(node, resp)
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Contributing/Migration-Guide-Python.rst

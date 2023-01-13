@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.rst
 .. redirect-from::
 
     Tutorials/Creating-Your-First-ROS2-Package
@@ -518,3 +519,8 @@ Next steps
 
 Next, let's add something meaningful to a package.
 You'll start with a simple publisher/subscriber system, which you can choose to write in either :doc:`C++ <./Writing-A-Simple-Cpp-Publisher-And-Subscriber>` or :doc:`Python <./Writing-A-Simple-Py-Publisher-And-Subscriber>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Creating-Your-First-ROS2-Package.rst

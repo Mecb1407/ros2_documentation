@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Glossary
 ========
 
@@ -30,3 +31,8 @@ Glossary of terms used throughout this documentation:
    repository
        A collection of packages usually managed using a :term:`VCS` like git or mercurial and usually hosted on a site like GitHub or BitBucket.
        In the context of this document repositories usually contain one or more |packages| of one type or another.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

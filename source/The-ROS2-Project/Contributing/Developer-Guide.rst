@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Developer-Guide
     Contributing/Developer-Guide
 
+<<<<<<< HEAD:source/The-ROS2-Project/Contributing/Developer-Guide.rst
 ROS 2 developer guide
 =====================
 
@@ -816,3 +819,6 @@ Generate html for easy visualization and annotation of covered lines.
 
     mkdir -p coverage
     genhtml ~/ros2_coverage.info --output-directory coverage
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Contributing/Developer-Guide.rst

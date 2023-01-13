@@ -1,7 +1,10 @@
+:orphan:
+
 .. redirect-from::
 
   Proyectos-Intel-ROS2
 
+<<<<<<< HEAD
 Proyectos de Intel en ROS 2
 ============================
 
@@ -29,3 +32,6 @@ Referencias
 ------------
 
 Componentes de ROS en: https://wiki.ros.org/IntelROSProject muestra la relación de los proyectos. También aplica para ROS2
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

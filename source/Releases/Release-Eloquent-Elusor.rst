@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Eloquent Elusor (``eloquent``)
 ==============================
 
@@ -256,3 +257,8 @@ A few milestones leading up to the release:
     Tue. Nov 19th
         Freeze rosdistro.
         No PRs for Eloquent on the ``rosdistro`` repo will be merged (reopens after the release announcement).
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

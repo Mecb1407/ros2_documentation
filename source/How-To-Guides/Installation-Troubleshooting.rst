@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/How-To-Guides/Installation-Troubleshooting.rst
 .. redirect-from::
 
   Guides/Installation-Troubleshooting
@@ -327,3 +328,8 @@ Binary installation specific
 
 * If your example does not start because of missing DLLs, please verify that all libraries from external dependencies such as OpenCV are located inside your ``PATH`` variable.
 * If you forget to call the ``local_setup.bat`` file from your terminal, the demo programs will most likely crash immediately.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Troubleshooting/Installation-Troubleshooting.rst

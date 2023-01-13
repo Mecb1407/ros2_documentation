@@ -1,9 +1,10 @@
-.. _AboutTopicStats:
+:orphan:
 
 .. redirect-from::
 
     About-Topic-Statistics
 
+<<<<<<< HEAD
 About topic statistics
 ======================
 
@@ -85,3 +86,6 @@ This feature is currently supported in ROS 2 Foxy for C++ only (rclcpp).
 Future work and improvements, such as Python support, can be found
 `here <https://github.com/ros2/ros2/issues/917>`__.
 
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

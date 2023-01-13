@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Introspection-with-command-line-tools
     Tutorials/Introspection-with-command-line-tools
 
+<<<<<<< HEAD:source/Concepts/About-Command-Line-Tools.rst
 Introspection with command line tools
 =====================================
 
@@ -86,3 +89,6 @@ The source code for the ``ros2`` command is available at https://github.com/ros2
 
 The ``ros2`` tool has been implemented as a framework that can be extended via plugins.
 For example, the `sros2 <https://github.com/ros2/sros2>`__ package provides a ``security`` sub-command that is automatically detected by the ``ros2`` tool if the ``sros2`` package is installed.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Introspection-with-command-line-tools.rst

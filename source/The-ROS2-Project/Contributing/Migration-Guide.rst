@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Migration-Guide
     Contributing/Migration-Guide
 
+<<<<<<< HEAD:source/The-ROS2-Project/Contributing/Migration-Guide.rst
 Migration guide from ROS 1
 ==========================
 
@@ -1055,3 +1058,6 @@ Changing the License
 It is possible to change the license, however you will need to contact all the contributors and get permission.
 For most packages this is likely to be a significant effort and not worth considering.
 If the package has a small set of contributors then this may be feasible.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Contributing/Migration-Guide.rst

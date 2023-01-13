@@ -1,10 +1,11 @@
-.. _RQt_Overview_Usage:
+:orphan:
 
 .. redirect-from::
 
    RQt-Overview-Usage
    Tutorials/RQt-Overview-Usage
 
+<<<<<<< HEAD:source/Concepts/About-RQt.rst
 Overview and usage of RQt
 =========================
 
@@ -92,3 +93,6 @@ Further Reading
   .. raw:: html
 
      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CyP9wHu2PpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/RQt-Overview-Usage.rst

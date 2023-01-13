@@ -1,3 +1,4 @@
+<<<<<<< HEAD:source/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.rst
 .. redirect-from::
 
     Tutorials/Rqt-Console/Using-Rqt-Console
@@ -132,3 +133,8 @@ Next steps
 ----------
 
 The next tutorial will teach you about starting multiple nodes at once with :doc:`ROS 2 Launch <../Launching-Multiple-Nodes/Launching-Multiple-Nodes>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Rqt-Console/Using-Rqt-Console.rst

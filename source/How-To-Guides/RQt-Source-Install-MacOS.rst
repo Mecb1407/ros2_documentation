@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     RQt-Source-Install-MacOS
     Guides/RQt-Source-Install-MacOS
 
+<<<<<<< HEAD:source/How-To-Guides/RQt-Source-Install-MacOS.rst
 Building RQt from source on macOS
 =================================
 
@@ -42,3 +45,6 @@ Install RQt by source
 ---------------------
 
 Continue with the :doc:`RQt source install page <RQt-Source-Install>`.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/RQt-Source-Install-MacOS.rst

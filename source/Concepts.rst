@@ -1,5 +1,6 @@
-.. _ConceptsHome:
+:orphan:
 
+<<<<<<< HEAD
 Concepts
 ========
 
@@ -127,3 +128,6 @@ For a brief video introduction to ROS 2, see this community contributed content:
 * `Getting started with ROS Part 1: Nodes, Parameters and Topics <https://youtu.be/46TPAKXBOF8>`_
 * `Getting started with ROS Part 2: Services and Actions <https://youtu.be/keZAJ83eEoM>`_
 
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

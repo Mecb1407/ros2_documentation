@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 implementaciones de DDS
 =======================
 
@@ -197,3 +198,8 @@ Luego, antes de usar ROS 2, configura el entorno Connext:
    call "C:\Program Files\rti_connext_dds-6.0.1\resource\scripts\rtisetenv_x64Win64VS2017.bat"
 
 Si deseas instalar los complementos de Connext DDS-Security, consultea :doc:`esta página <DDS-Implementations/Install-Connext-Security-Plugins>`.
+=======
+:orphan:
+
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa

@@ -1,8 +1,11 @@
+:orphan:
+
 .. redirect-from::
 
     Discovery-Server
     Tutorials/Discovery-Server/Discovery-Server
 
+<<<<<<< HEAD:source/Tutorials/Advanced/Discovery-Server/Discovery-Server.rst
 Using Fast DDS Discovery Server as discovery protocol [community-contributed]
 =============================================================================
 
@@ -337,3 +340,6 @@ The reduction from this method increases with the number of nodes, making this a
 The new Fast DDS Discovery Server v2 is available since *Fast DDS* v2.0.2, replacing the old discovery server.
 In this new version, those nodes that do not share topics will automatically not discover each other, saving the whole discovery data required to connect them and their endpoints.
 The experiment above does not show this case, but even so the massive reduction in traffic can be appreciated due to the hidden infrastructure topics of ROS 2 nodes.
+=======
+The files on this branch are no longer used.  See the 'rolling' branch instead.
+>>>>>>> 5884b736042684e34db58d74fabbabd321bdfafa:source/Tutorials/Discovery-Server/Discovery-Server.rst
